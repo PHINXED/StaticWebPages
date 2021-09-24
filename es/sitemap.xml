@@ -2,361 +2,361 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>http://www.PHINXMADRID.com/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/categories/"
+                href="http://www.PHINXMADRID.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/categories/"
+                href="http://www.PHINXMADRID.com/categories/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/css/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/css/"
+                href="http://www.PHINXMADRID.com/en/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/css/"
+                href="http://www.PHINXMADRID.com/tags/css/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/markdown-syntax/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/markdown-syntax/"
+                href="http://www.PHINXMADRID.com/en/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/markdown-syntax/"
+                href="http://www.PHINXMADRID.com/posts/markdown-syntax/"
                 />
   </url><url>
-    <loc>http://www.example.com/series/guia-do-thema/</loc>
+    <loc>http://www.PHINXMADRID.com/series/guia-do-thema/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/html/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/html/"
+                href="http://www.PHINXMADRID.com/en/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/html/"
+                href="http://www.PHINXMADRID.com/tags/html/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/markdown/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/markdown/"
+                href="http://www.PHINXMADRID.com/en/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/markdown/"
+                href="http://www.PHINXMADRID.com/tags/markdown/"
                 />
   </url><url>
-    <loc>http://www.example.com/</loc>
+    <loc>http://www.PHINXMADRID.com/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/"
+                href="http://www.PHINXMADRID.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/"
+                href="http://www.PHINXMADRID.com/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/"
+                href="http://www.PHINXMADRID.com/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/"
+                href="http://www.PHINXMADRID.com/posts/"
                 />
   </url><url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>http://www.PHINXMADRID.com/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/series/"
+                href="http://www.PHINXMADRID.com/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/series/"
+                href="http://www.PHINXMADRID.com/series/"
                 />
   </url><url>
-    <loc>http://www.example.com/categories/sintaxe/</loc>
+    <loc>http://www.PHINXMADRID.com/categories/sintaxe/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/"
+                href="http://www.PHINXMADRID.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/"
+                href="http://www.PHINXMADRID.com/tags/"
                 />
   </url><url>
-    <loc>http://www.example.com/categories/temas/</loc>
+    <loc>http://www.PHINXMADRID.com/categories/temas/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/rich-content/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/rich-content/"
+                href="http://www.PHINXMADRID.com/en/posts/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/rich-content/"
+                href="http://www.PHINXMADRID.com/posts/rich-content/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/privacy/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/privacy/"
+                href="http://www.PHINXMADRID.com/en/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/privacy/"
+                href="http://www.PHINXMADRID.com/tags/privacy/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/shortcodes/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/shortcodes/"
+                href="http://www.PHINXMADRID.com/en/tags/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/shortcodes/"
+                href="http://www.PHINXMADRID.com/tags/shortcodes/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/more-rich-content/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/more-rich-content/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/more-rich-content/"
+                href="http://www.PHINXMADRID.com/en/posts/more-rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/more-rich-content/"
+                href="http://www.PHINXMADRID.com/posts/more-rich-content/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/text/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/text/"
+                href="http://www.PHINXMADRID.com/en/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/text/"
+                href="http://www.PHINXMADRID.com/tags/text/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/placeholder-text/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/placeholder-text/"
+                href="http://www.PHINXMADRID.com/en/posts/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/placeholder-text/"
+                href="http://www.PHINXMADRID.com/posts/placeholder-text/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/math-typesetting/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/math-typesetting/"
+                href="http://www.PHINXMADRID.com/en/posts/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/math-typesetting/"
+                href="http://www.PHINXMADRID.com/posts/math-typesetting/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/emoji/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/emoji/"
+                href="http://www.PHINXMADRID.com/en/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/emoji/"
+                href="http://www.PHINXMADRID.com/tags/emoji/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/emoji-support/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/emoji-support/"
+                href="http://www.PHINXMADRID.com/en/posts/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/emoji-support/"
+                href="http://www.PHINXMADRID.com/posts/emoji-support/"
                 />
   </url><url>
-    <loc>http://www.example.com/categories/development/</loc>
+    <loc>http://www.PHINXMADRID.com/categories/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/categories/development/"
+                href="http://www.PHINXMADRID.com/en/categories/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/categories/development/"
+                href="http://www.PHINXMADRID.com/categories/development/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/development/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/development/"
+                href="http://www.PHINXMADRID.com/en/tags/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/development/"
+                href="http://www.PHINXMADRID.com/tags/development/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/hugo/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/hugo/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/hugo/"
+                href="http://www.PHINXMADRID.com/en/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/hugo/"
+                href="http://www.PHINXMADRID.com/tags/hugo/"
                 />
   </url><url>
-    <loc>http://www.example.com/posts/hugo-coder-wiki/</loc>
+    <loc>http://www.PHINXMADRID.com/posts/hugo-coder-wiki/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/posts/hugo-coder-wiki/"
+                href="http://www.PHINXMADRID.com/en/posts/hugo-coder-wiki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/posts/hugo-coder-wiki/"
+                href="http://www.PHINXMADRID.com/posts/hugo-coder-wiki/"
                 />
   </url><url>
-    <loc>http://www.example.com/tags/themes/</loc>
+    <loc>http://www.PHINXMADRID.com/tags/themes/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/tags/themes/"
+                href="http://www.PHINXMADRID.com/en/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/tags/themes/"
+                href="http://www.PHINXMADRID.com/tags/themes/"
                 />
   </url><url>
-    <loc>http://www.example.com/about/</loc>
+    <loc>http://www.PHINXMADRID.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/about/"
+                href="http://www.PHINXMADRID.com/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/about/"
+                href="http://www.PHINXMADRID.com/about/"
                 />
   </url><url>
-    <loc>http://www.example.com/authors/</loc>
+    <loc>http://www.PHINXMADRID.com/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/authors/"
+                href="http://www.PHINXMADRID.com/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/authors/"
+                href="http://www.PHINXMADRID.com/authors/"
                 />
   </url><url>
-    <loc>http://www.example.com/contact/</loc>
+    <loc>http://www.PHINXMADRID.com/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/contact/"
+                href="http://www.PHINXMADRID.com/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/contact/"
+                href="http://www.PHINXMADRID.com/contact/"
                 />
   </url><url>
-    <loc>http://www.example.com/projects/</loc>
+    <loc>http://www.PHINXMADRID.com/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/en/projects/"
+                href="http://www.PHINXMADRID.com/en/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/projects/"
+                href="http://www.PHINXMADRID.com/projects/"
                 />
   </url>
 </urlset>

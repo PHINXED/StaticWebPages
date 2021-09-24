@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on PHINX</title>
-    <link>http://www.example.com/categories/</link>
-    <description>Recent content in Categories on PHINX</description>
+    <title>Categories on PHINXMADRID</title>
+    <link>http://www.PHINXMADRID.com/categories/</link>
+    <description>Recent content in Categories on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.PHINXMADRID.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sintaxe</title>
-      <link>http://www.example.com/categories/sintaxe/</link>
+      <link>http://www.PHINXMADRID.com/categories/sintaxe/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/categories/sintaxe/</guid>
+      <guid>http://www.PHINXMADRID.com/categories/sintaxe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>temas</title>
-      <link>http://www.example.com/categories/temas/</link>
+      <link>http://www.PHINXMADRID.com/categories/temas/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/categories/temas/</guid>
+      <guid>http://www.PHINXMADRID.com/categories/temas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://www.example.com/categories/development/</link>
+      <link>http://www.PHINXMADRID.com/categories/development/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/categories/development/</guid>
+      <guid>http://www.PHINXMADRID.com/categories/development/</guid>
       <description></description>
     </item>
     
