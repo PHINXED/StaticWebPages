@@ -2,361 +2,477 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.PHINXMADRID.com/categories/</loc>
+    <loc>/anulado/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/categories/"
+                href="/en/anulado/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/categories/"
+                href="/anulado/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/css/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/css/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/css/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/markdown-syntax/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/markdown-syntax/"
+                href="/en/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/markdown-syntax/"
+                href="/tags/css/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/series/guia-do-thema/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/html/</loc>
+    <loc>/anulado/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/html/"
+                href="/en/anulado/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/html/"
+                href="/anulado/markdown-syntax/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/markdown/</loc>
+    <loc>/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/markdown/"
+                href="/en/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/markdown/"
+                href="/posts/markdown-syntax/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/</loc>
+    <loc>/series/guia-do-thema/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/"
+                href="/en/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/"
+                href="/tags/html/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/</loc>
+    <loc>/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/"
+                href="/en/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/"
+                href="/tags/markdown/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/series/</loc>
+    <loc>/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/series/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/series/"
+                href="/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/categories/sintaxe/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/</loc>
+    <loc>/posts/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/"
+                href="/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/"
+                href="/posts/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/categories/temas/</loc>
+    <loc>/series/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/series/"
+                />
+  </url><url>
+    <loc>/categories/sintaxe/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/rich-content/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/categories/temas/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/anulado/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/rich-content/"
+                href="/en/anulado/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/rich-content/"
+                href="/anulado/rich-content/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/privacy/</loc>
+    <loc>/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/privacy/"
+                href="/en/posts/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/privacy/"
+                href="/posts/rich-content/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/shortcodes/</loc>
+    <loc>/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/shortcodes/"
+                href="/en/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/shortcodes/"
+                href="/tags/privacy/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/more-rich-content/</loc>
+    <loc>/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/shortcodes/"
+                />
+  </url><url>
+    <loc>/anulado/more-rich-content/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/more-rich-content/"
+                href="/en/anulado/more-rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/more-rich-content/"
+                href="/anulado/more-rich-content/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/text/</loc>
+    <loc>/posts/more-rich-content/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/text/"
+                href="/en/posts/more-rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/text/"
+                href="/posts/more-rich-content/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/placeholder-text/</loc>
+    <loc>/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/placeholder-text/"
+                href="/en/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/placeholder-text/"
+                href="/tags/text/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/math-typesetting/</loc>
+    <loc>/anulado/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/anulado/placeholder-text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/anulado/placeholder-text/"
+                />
+  </url><url>
+    <loc>/posts/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/placeholder-text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/placeholder-text/"
+                />
+  </url><url>
+    <loc>/anulado/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/math-typesetting/"
+                href="/en/anulado/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/math-typesetting/"
+                href="/anulado/math-typesetting/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/emoji/</loc>
+    <loc>/posts/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/math-typesetting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/math-typesetting/"
+                />
+  </url><url>
+    <loc>/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/emoji/"
+                href="/en/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/emoji/"
+                href="/tags/emoji/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/emoji-support/</loc>
+    <loc>/anulado/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/emoji-support/"
+                href="/en/anulado/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/emoji-support/"
+                href="/anulado/emoji-support/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/categories/development/</loc>
+    <loc>/posts/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/emoji-support/"
+                />
+  </url><url>
+    <loc>/categories/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/categories/development/"
+                href="/en/categories/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/categories/development/"
+                href="/categories/development/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/development/</loc>
+    <loc>/tags/development/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/development/"
+                href="/en/tags/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/development/"
+                href="/tags/development/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/hugo/"
+                href="/en/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/hugo/"
+                href="/tags/hugo/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/posts/hugo-coder-wiki/</loc>
+    <loc>/anulado/hugo-coder-wiki/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/posts/hugo-coder-wiki/"
+                href="/en/anulado/hugo-coder-wiki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/posts/hugo-coder-wiki/"
+                href="/anulado/hugo-coder-wiki/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/tags/themes/</loc>
+    <loc>/posts/hugo-coder-wiki/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/tags/themes/"
+                href="/en/posts/hugo-coder-wiki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/tags/themes/"
+                href="/posts/hugo-coder-wiki/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/about/</loc>
+    <loc>/tags/themes/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/themes/"
+                />
+  </url><url>
+    <loc>/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/about/"
+                href="/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/about/"
+                href="/about/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/authors/</loc>
+    <loc>/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/authors/"
+                href="/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/authors/"
+                href="/authors/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/contact/</loc>
+    <loc>/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/contact/"
+                href="/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/contact/"
+                href="/blog/"
                 />
   </url><url>
-    <loc>http://www.PHINXMADRID.com/projects/</loc>
+    <loc>/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.PHINXMADRID.com/en/projects/"
+                href="/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.PHINXMADRID.com/projects/"
+                href="/contact/"
+                />
+  </url><url>
+    <loc>/bitacora/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/bitacora/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/bitacora/"
                 />
   </url>
 </urlset>

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PHINXMADRID</title>
-    <link>http://www.PHINXMADRID.com/en/categories/</link>
+    <link>/en/categories/</link>
     <description>Recent content in Categories on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.PHINXMADRID.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>syntax</title>
-      <link>http://www.PHINXMADRID.com/en/categories/syntax/</link>
+      <link>/en/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/en/categories/syntax/</guid>
+      <guid>/en/categories/syntax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>http://www.PHINXMADRID.com/en/categories/themes/</link>
+      <link>/en/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/en/categories/themes/</guid>
+      <guid>/en/categories/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://www.PHINXMADRID.com/en/categories/development/</link>
+      <link>/en/categories/development/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/en/categories/development/</guid>
+      <guid>/en/categories/development/</guid>
       <description></description>
     </item>
     

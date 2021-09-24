@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on PHINXMADRID</title>
-    <link>http://www.PHINXMADRID.com/series/</link>
+    <link>/series/</link>
     <description>Recent content in Series on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.PHINXMADRID.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guia do Thema</title>
-      <link>http://www.PHINXMADRID.com/series/guia-do-thema/</link>
+      <link>/series/guia-do-thema/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/series/guia-do-thema/</guid>
+      <guid>/series/guia-do-thema/</guid>
       <description></description>
     </item>
     

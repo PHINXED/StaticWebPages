@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on PHINXMADRID</title>
-    <link>http://www.PHINXMADRID.com/en/categories/development/</link>
+    <link>/en/categories/development/</link>
     <description>Recent content in Development on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.PHINXMADRID.com/en/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/en/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>External Page: Hugo Coder Wiki</title>
-      <link>http://www.PHINXMADRID.com/en/posts/hugo-coder-wiki/</link>
+      <link>/en/anulado/hugo-coder-wiki/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/en/posts/hugo-coder-wiki/</guid>
+      <guid>/en/anulado/hugo-coder-wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Page: Hugo Coder Wiki</title>
+      <link>/en/posts/hugo-coder-wiki/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/hugo-coder-wiki/</guid>
       <description></description>
     </item>
     

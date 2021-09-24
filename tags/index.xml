@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PHINXMADRID</title>
-    <link>http://www.PHINXMADRID.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.PHINXMADRID.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>css</title>
-      <link>http://www.PHINXMADRID.com/tags/css/</link>
+      <link>/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/css/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>http://www.PHINXMADRID.com/tags/html/</link>
+      <link>/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/html/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>http://www.PHINXMADRID.com/tags/markdown/</link>
+      <link>/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/markdown/</guid>
+      <guid>/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>http://www.PHINXMADRID.com/tags/privacy/</link>
+      <link>/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/privacy/</guid>
+      <guid>/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>http://www.PHINXMADRID.com/tags/shortcodes/</link>
+      <link>/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/shortcodes/</guid>
+      <guid>/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>http://www.PHINXMADRID.com/tags/text/</link>
+      <link>/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/text/</guid>
+      <guid>/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>http://www.PHINXMADRID.com/tags/emoji/</link>
+      <link>/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/emoji/</guid>
+      <guid>/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>http://www.PHINXMADRID.com/tags/development/</link>
+      <link>/tags/development/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/development/</guid>
+      <guid>/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://www.PHINXMADRID.com/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>http://www.PHINXMADRID.com/tags/themes/</link>
+      <link>/tags/themes/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.PHINXMADRID.com/tags/themes/</guid>
+      <guid>/tags/themes/</guid>
       <description></description>
     </item>
     
