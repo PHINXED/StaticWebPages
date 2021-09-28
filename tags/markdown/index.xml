@@ -18,10 +18,10 @@
     
     <item>
       <title>Guia de Sintaxe Markdown</title>
-      <link>/posts/markdown-syntax/</link>
+      <link>/posts/nueva-carpeta/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/markdown-syntax/</guid>
+      <guid>/posts/nueva-carpeta/markdown-syntax/</guid>
       <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
     </item>
     
@@ -36,10 +36,10 @@
     
     <item>
       <title>Texto de Exemplo</title>
-      <link>/posts/placeholder-text/</link>
+      <link>/posts/nueva-carpeta/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/placeholder-text/</guid>
+      <guid>/posts/nueva-carpeta/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     

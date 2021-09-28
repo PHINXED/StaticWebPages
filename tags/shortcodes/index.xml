@@ -18,10 +18,10 @@
     
     <item>
       <title>Conteúdo Rico</title>
-      <link>/posts/rich-content/</link>
+      <link>/posts/nueva-carpeta/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/rich-content/</guid>
+      <guid>/posts/nueva-carpeta/rich-content/</guid>
       <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Shortcodes Internos&lt;/a&gt; para conteúdo rico, assim como uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Configuração de Privacidade&lt;/a&gt; e uma gama de Shortcodes simples que permitem embutir versões estáticas e sem JS de várias de redes sociais.&lt;/p&gt;</description>
     </item>
     
@@ -36,10 +36,10 @@
     
     <item>
       <title>Mais Conteúdo Rico</title>
-      <link>/posts/more-rich-content/</link>
+      <link>/posts/nueva-carpeta/more-rich-content/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/more-rich-content/</guid>
+      <guid>/posts/nueva-carpeta/more-rich-content/</guid>
       <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;</description>
     </item>
     

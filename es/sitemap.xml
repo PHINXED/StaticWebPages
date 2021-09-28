@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/inversiones/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/inversiones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/inversiones/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/"
+                />
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/"
+                />
+  </url><url>
     <loc>/anulado/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -54,17 +93,17 @@
                 href="/anulado/markdown-syntax/"
                 />
   </url><url>
-    <loc>/posts/markdown-syntax/</loc>
+    <loc>/posts/nueva-carpeta/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/markdown-syntax/"
+                href="/en/posts/nueva-carpeta/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/markdown-syntax/"
+                href="/posts/nueva-carpeta/markdown-syntax/"
                 />
   </url><url>
     <loc>/series/guia-do-thema/</loc>
@@ -94,32 +133,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/tags/markdown/"
-                />
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/"
-                />
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/"
                 />
   </url><url>
     <loc>/series/</loc>
@@ -167,17 +180,17 @@
                 href="/anulado/rich-content/"
                 />
   </url><url>
-    <loc>/posts/rich-content/</loc>
+    <loc>/posts/nueva-carpeta/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/rich-content/"
+                href="/en/posts/nueva-carpeta/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/rich-content/"
+                href="/posts/nueva-carpeta/rich-content/"
                 />
   </url><url>
     <loc>/tags/privacy/</loc>
@@ -219,17 +232,17 @@
                 href="/anulado/more-rich-content/"
                 />
   </url><url>
-    <loc>/posts/more-rich-content/</loc>
+    <loc>/posts/nueva-carpeta/more-rich-content/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/more-rich-content/"
+                href="/en/posts/nueva-carpeta/more-rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/more-rich-content/"
+                href="/posts/nueva-carpeta/more-rich-content/"
                 />
   </url><url>
     <loc>/tags/text/</loc>
@@ -258,17 +271,17 @@
                 href="/anulado/placeholder-text/"
                 />
   </url><url>
-    <loc>/posts/placeholder-text/</loc>
+    <loc>/posts/nueva-carpeta/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/placeholder-text/"
+                href="/en/posts/nueva-carpeta/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/placeholder-text/"
+                href="/posts/nueva-carpeta/placeholder-text/"
                 />
   </url><url>
     <loc>/anulado/math-typesetting/</loc>
@@ -284,17 +297,17 @@
                 href="/anulado/math-typesetting/"
                 />
   </url><url>
-    <loc>/posts/math-typesetting/</loc>
+    <loc>/posts/nueva-carpeta/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/math-typesetting/"
+                href="/en/posts/nueva-carpeta/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/math-typesetting/"
+                href="/posts/nueva-carpeta/math-typesetting/"
                 />
   </url><url>
     <loc>/tags/emoji/</loc>
@@ -323,17 +336,17 @@
                 href="/anulado/emoji-support/"
                 />
   </url><url>
-    <loc>/posts/emoji-support/</loc>
+    <loc>/posts/nueva-carpeta/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/emoji-support/"
+                href="/en/posts/nueva-carpeta/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/emoji-support/"
+                href="/posts/nueva-carpeta/emoji-support/"
                 />
   </url><url>
     <loc>/categories/development/</loc>
@@ -388,17 +401,17 @@
                 href="/anulado/hugo-coder-wiki/"
                 />
   </url><url>
-    <loc>/posts/hugo-coder-wiki/</loc>
+    <loc>/posts/nueva-carpeta/hugo-coder-wiki/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/hugo-coder-wiki/"
+                href="/en/posts/nueva-carpeta/hugo-coder-wiki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/hugo-coder-wiki/"
+                href="/posts/nueva-carpeta/hugo-coder-wiki/"
                 />
   </url><url>
     <loc>/tags/themes/</loc>
@@ -474,5 +487,7 @@
                 hreflang="es"
                 href="/bitacora/"
                 />
+  </url><url>
+    <loc>/posts/prueba/</loc>
   </url>
 </urlset>
