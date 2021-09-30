@@ -8,148 +8,22 @@
     <language>EN</language>
     <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sobre mi</title>
+      <link>/about/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Nota  Autodidacta, ambicioso, energetico y con gran capacidad resolutiva. Me considero como una papelera de informacion en donde acumulo cualquier tipo de conocimiento o idea que se pueda desarrollar.   CURICULUM VITAE       Titulo Centro Fecha Motivo     ESO IES Luis de Lucena 2014 Obligatorio   CFGM Instalacion y mantenimiento de telecomunicaciones IES Luis de Lucena 2016 Campo electro-informatico (transmisiones y electronica)   Diseño y mantenimiento de instalaciones fotovoltaicas ENAE003PO 2019 Campo electro-informatico (abastecimiento electrico)   Electricista en baja tension P.</description>
+    </item>
+    
+    <item>
       <title>INVERSIONES</title>
       <link>/posts/inversiones/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/posts/inversiones/</guid>
-      <description> Inversiones en curso con capital real (no es un asesoramiento financiero):    PLATFORM LOGO LINK ACTIVIDAD     ETORO  https://www.etoro.com/ HIBERNANDO   JUICYFIELDS  https://juicyfields.io/ EN ROTACION   PLANTS VS UNDEAD  https://plantvsundead.com/ ACTIVO      </description>
-    </item>
-    
-    <item>
-      <title>Guia de Sintaxe Markdown</title>
-      <link>/anulado/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/markdown-syntax/</guid>
-      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Guia de Sintaxe Markdown</title>
-      <link>/posts/nueva-carpeta/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/markdown-syntax/</guid>
-      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Conteúdo Rico</title>
-      <link>/anulado/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/rich-content/</guid>
-      <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Shortcodes Internos&lt;/a&gt; para conteúdo rico, assim como uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Configuração de Privacidade&lt;/a&gt; e uma gama de Shortcodes simples que permitem embutir versões estáticas e sem JS de várias de redes sociais.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Conteúdo Rico</title>
-      <link>/posts/nueva-carpeta/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/rich-content/</guid>
-      <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Shortcodes Internos&lt;/a&gt; para conteúdo rico, assim como uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Configuração de Privacidade&lt;/a&gt; e uma gama de Shortcodes simples que permitem embutir versões estáticas e sem JS de várias de redes sociais.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mais Conteúdo Rico</title>
-      <link>/anulado/more-rich-content/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/more-rich-content/</guid>
-      <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mais Conteúdo Rico</title>
-      <link>/posts/nueva-carpeta/more-rich-content/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/more-rich-content/</guid>
-      <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Texto de Exemplo</title>
-      <link>/anulado/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Texto de Exemplo</title>
-      <link>/posts/nueva-carpeta/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Configuração de Equações Matemáticas</title>
-      <link>/anulado/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/math-typesetting/</guid>
-      <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Configuração de Equações Matemáticas</title>
-      <link>/posts/nueva-carpeta/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/math-typesetting/</guid>
-      <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Suporte a Emojis</title>
-      <link>/anulado/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/emoji-support/</guid>
-      <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Suporte a Emojis</title>
-      <link>/posts/nueva-carpeta/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/emoji-support/</guid>
-      <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Página Externa: Wiki Hugo Coder</title>
-      <link>/anulado/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/anulado/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Página Externa: Wiki Hugo Coder</title>
-      <link>/posts/nueva-carpeta/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nueva-carpeta/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sobre mi</title>
-      <link>/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Nota  Autodidacta, ambicioso, energetico y con gran capacidad resolutiva. Me considero como una papelera de informacion en donde acumulo cualquier tipo de conocimiento o idea que se pueda desarrollar.  CURICULUM VITAE
-   Titulo Centro Fecha Motivo     ESO IES Luis de Lucena 2014 Obligatorio   CFGM Instalacion y mantenimiento de telecomunicaciones IES Luis de Lucena 2016 Campo electro-informatico (transmisiones y electronica)   Diseño y mantenimiento de instalaciones fotovoltaicas ENAE003PO 2019 Campo electro-informatico (abastecimiento electrico)   Electricista en baja tension P.</description>
+      <description> Inversiones en curso con capital real (no es un asesoramiento financiero)
+    PLATFORM LOGO LINK ACTIVIDAD     ETORO  eToro HIBERNANDO   JUICYFIELDS  JuicyFields EN ROTACION   PLANT VS UNDEAD  PlantvsUndead ACTIVO    </description>
     </item>
     
     <item>

@@ -8,149 +8,22 @@
     <language>EN</language>
     <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>/en/about/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/about/</guid>
+      <description>Note  Self-taught, ambitious, energetic and with great resolution capacity. I consider myself as an information bin where I accumulate any type of knowledge or idea that can be developed.   CURICULUM VITAE       Title Center Date Cause     ESO IES Luis de Lucena 2014 Mandatory   CFGM Installation and maintenance of telecommunications IES Luis de Lucena 2016 Electro-informatic field (transmissions and electronics)   Design and maintenance of photovoltaic installations ENAE003PO 2019 Electro-informatic field (electrical supply)   Low voltage electrician P.</description>
+    </item>
+    
+    <item>
       <title>INVESTMENTS</title>
       <link>/en/posts/inversiones/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/posts/inversiones/</guid>
-      <description>   PLATFORM LOGO LINK ACTIVIDAD     ETORO  https://www.etoro.com/ HIBERNANDO   JUICYFIELDS  https://juicyfields.io/ EN ROTACION   PLANTS VS UNDEAD  https://plantvsundead.com/ ACTIVO    </description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/en/anulado/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/en/posts/nueva-carpeta/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>/en/anulado/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>/en/posts/nueva-carpeta/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>More Rich Content</title>
-      <link>/en/anulado/more-rich-content/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/more-rich-content/</guid>
-      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>More Rich Content</title>
-      <link>/en/posts/nueva-carpeta/more-rich-content/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/more-rich-content/</guid>
-      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/en/anulado/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/en/posts/nueva-carpeta/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>/en/anulado/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>/en/posts/nueva-carpeta/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>/en/anulado/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>/en/posts/nueva-carpeta/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>External Page: Hugo Coder Wiki</title>
-      <link>/en/anulado/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/anulado/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>External Page: Hugo Coder Wiki</title>
-      <link>/en/posts/nueva-carpeta/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/nueva-carpeta/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/en/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
+      <description> Current investments with real capital (not financial advice)
+    PLATFORM LOGO LINK ACTIVIDAD     ETORO  eToro HIBERNANDO   JUICYFIELDS  JuicyFields EN ROTACION   PLANT VS UNDEAD  PlantvsUndead ACTIVO    </description>
     </item>
     
     <item>
