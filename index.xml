@@ -27,15 +27,6 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/</guid>
-      <description>Advertencia  En construccion!  </description>
-    </item>
-    
-    <item>
       <title>Contacto</title>
       <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,6 +42,15 @@
       
       <guid>/bitacora/</guid>
       <description> Beta 1.0 : 21/09/21 (Lanzamiento de proyecto web) Actualizacion 1.01 : 24/09/21 (Actualizacion de interfaces y contenido)  </description>
+    </item>
+    
+    <item>
+      <title>Tablon</title>
+      <link>/newsboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/newsboard/</guid>
+      <description>Información  En construccion!  </description>
     </item>
     
   </channel>

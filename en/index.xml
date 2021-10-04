@@ -27,21 +27,21 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>/en/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/blog/</guid>
-      <description>Warning  In construction!   </description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>/en/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/contact/</guid>
       <description> GMAIL LUISGG099@GMAIL.COM  </description>
+    </item>
+    
+    <item>
+      <title>News board</title>
+      <link>/en/newsboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/newsboard/</guid>
+      <description>Info  In construction!  </description>
     </item>
     
     <item>

@@ -66,18 +66,6 @@
                 href="/en/authors/"
                 />
   </url><url>
-    <loc>/en/blog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/blog/"
-                />
-  </url><url>
     <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -100,6 +88,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/contact/"
+                />
+  </url><url>
+    <loc>/en/newsboard/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/newsboard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/newsboard/"
                 />
   </url><url>
     <loc>/en/series/</loc>
