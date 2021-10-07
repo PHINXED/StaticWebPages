@@ -6,7 +6,43 @@
     <description>Recent content in Posts on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antivirus</title>
+      <link>/posts/antivirus/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/antivirus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biblioteca Belica</title>
+      <link>/posts/biblioteca-belica/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/biblioteca-belica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>USUARIO Y OU DE W10 A AD</title>
+      <link>/posts/powershell-users-y-ou/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/powershell-users-y-ou/</guid>
+      <description>#Formulario $Form = New-Object System.Windows.Forms.Form $Form.Text=&amp;#34;Formulario&amp;#34; $Form.Size=New-Object System.Drawing.Size(500,500) $Form.StartPosition=&amp;#34;CenterScreen&amp;#34; #Etiqueta $Label=New-Object System.Windows.Forms.Label $Label.Text=&amp;#34;NOMBRE DE USUARIO&amp;#34; $Label.AutoSize=$True $Label.Location=New-Object System.Drawing.Size(150,70) #Etiqueta2 $Label2=New-Object System.Windows.Forms.Label $Label2.Text=&amp;#34;NOMBRE DE OU&amp;#34; $Label2.AutoSize=$True $Label2.Location=New-Object System.Drawing.Size(170,140) #Botón $Button=New-Object System.Windows.Forms.Button $Button.Size=New-Object System.Drawing.Size(75,23) $Button.Text=&amp;#34;ENTER&amp;#34; $Button.Location=New-Object System.Drawing.Size(150,210) #Botón2 $Button2=New-Object System.Windows.Forms.Button $Button2.Size=New-Object System.Drawing.Size(75,23) $Button2.Text=&amp;#34;EXIT&amp;#34; $Button2.Location=New-Object System.Drawing.Size(230,210) #Caja de texto $TextBox = New-Object System.Windows.Forms.TextBox $TextBox.Location = New-Object System.Drawing.Size(100,100) $TextBox.Size = New-Object System.Drawing.Size(260,20) #Caja de texto 2 $TextBox2 = New-Object System.Windows.Forms.TextBox $TextBox2.Location = New-Object System.Drawing.Size(100,170) $TextBox2.</description>
+    </item>
+    
+    <item>
+      <title>ANALISIS FORENSE SCAM</title>
+      <link>/posts/analisis-pvu/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/analisis-pvu/</guid>
+      <description>ACTUACION FRAUDULENTA EN PLANTSVSUNDEAD    Analisis de un hacker que ha ejecutado un scam contra los usuarios aprovechandose de los administradores:    La pagina es la siguiente, con direccion terminada en .com    DENTRO DE UN POST OFICIAL DE ACTUALIZACION    </description>
+    </item>
+    
     <item>
       <title>INVERSIONES</title>
       <link>/posts/inversiones/</link>
