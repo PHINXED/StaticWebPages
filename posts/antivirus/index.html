@@ -24,8 +24,8 @@
 <meta property="og:description" content="Antivirus" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/antivirus/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-10-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-10-07T00:00:00+00:00" />
+
+
 
 
 
@@ -159,13 +159,13 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2021-10-07T00:00:00Z'>
-                7 October, 2021
+              <time datetime='0001-01-01T00:00:00Z'>
+                1 January, 0001
               </time>
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              0 minutos de lectura.
+              4 minutos de lectura.
             </span>
           </div>
           
@@ -176,7 +176,133 @@
 
       <div>
         
-        <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">
+        <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">c:\xampp\mysql\bin\mysql.exe -u root
+
+<span style="font-style:italic">#CREATE USER &#39;luis&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;luison&#39;;</span>
+
+<span style="font-style:italic">#GRANT ALL PRIVILEGES ON *.* TO &#39;usuario&#39;@&#39;localhost&#39; WITH GRANT OPTION;</span>
+
+<span style="font-style:italic">#FLUSH PRIVILEGES;</span>
+
+<span style="font-style:italic">########------------SACAR HASH DE PROGRAMAS---------------################</span>
+$HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH
+$PROGRAMA = <span style="font-style:italic">&#34;notepad.exe&#34;</span>
+
+<span style="font-style:italic">########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------##########</span>
+<span style="font-weight:bold">foreach</span>($programas <span style="font-weight:bold">in</span> get-process)
+{
+    $programas.name
+    Get-FileHash $programas.path | select hash
+    <span style="font-style:italic">&#34;- - - - - - - -&#34;</span>
+}
+
+<span style="font-style:italic">#Conectar con MySQL</span>
+
+<span style="font-style:italic">#Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.NET</span>
+[void][System.Reflection.Assembly]::LoadWithPartialName(<span style="font-style:italic">&#34;MySql.Data&#34;</span>)
+
+<span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlConnection que representa una conexión abierta a una base de datos del servidor MySQL</span>
+<span style="font-style:italic">#Indicar en el constructor los paramétros necesarios para realizar la conexión: server, port, uid, pwd y database</span>
+$Connection = ([MySql.Data.MySqlClient.MySqlConnection]::new(<span style="font-style:italic">&#34;server=&#34;</span> + <span style="font-style:italic">&#34;localhost&#34;</span> + <span style="font-style:italic">&#34;;port=3306;uid=&#34;</span> + <span style="font-style:italic">&#34;luis&#34;</span> + <span style="font-style:italic">&#34;;pwd=luison&#34;</span> + <span style="font-style:italic">&#34;;database=&#34;</span>+<span style="font-style:italic">&#34;antivirus&#34;</span>+<span style="font-style:italic">&#34;;SslMode=none&#34;</span>))
+<span style="font-style:italic">#Ejecutar el método Open para conectar a la base de datos de MySQL</span>
+$Connection.Open()
+<span style="font-style:italic">##########----------------INSERT-------------------------------------##########</span>
+
+$Query = <span style="font-style:italic">&#39;INSERT INTO antivirus (HASH,PROGRAMA) VALUES (&#34;&#39;</span>+$HASH+<span style="font-style:italic">&#39;&#34;,&#34;&#39;</span>+$PROGRAMA+<span style="font-style:italic">&#39;&#34;);&#39;</span>
+$Command = New-Object MySql.Data.MySqlClient.MySqlCommand($Query, $Connection)
+$DataAdapter = New-Object MySql.Data.MySqlClient.MySqlDataAdapter($Command)
+$DataSet = New-Object System.Data.DataSet
+$RecordCount = $dataAdapter.Fill($dataSet, <span style="font-style:italic">&#34;data&#34;</span>)
+$DataSet.Tables[0]
+$Connection.Close()
+
+<span style="font-style:italic">#########-----------------CONSULTA-----------------------------------##########</span>
+
+<span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlCommand que representa una instrucción SQL para ejecutar contra una base de datos MySQL</span>
+<span style="font-style:italic">#Indicar en el constructor la instrucción SQL para ejecutar y la conexión (realizada en el paso anterior)</span>
+$Query = <span style="font-style:italic">&#39;select hash from antivirus;&#39;</span>
+$Command = [MySql.Data.MySqlClient.MySqlCommand]::new($Query, $Connection)
+
+<span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlDataAdapter que representa un conjunto de comandos de datos y una conexión de base de datos que se utilizan para llenar un conjunto de datos y actualizar una base de datos MySQL</span>
+<span style="font-style:italic">#Indicar en el constructor el objeto MySql.Data.MySqlClient.MySqlCommand creado anteriormente</span>
+$DataAdapter = [MySql.Data.MySqlClient.MySqlDataAdapter]::new($Command)
+
+<span style="font-style:italic">#Crear un objeto System.Data.DataSet que representa una caché de datos en memoria en donde se almacenan los datos obtenidos del objeto MySql.Data.MySqlClient.MySqlDataAdapter</span>
+$DataSet = [System.Data.DataSet]::new()
+<span style="font-style:italic">#Agregar en System.Data.DataSet los datos del objeto MySql.Data.MySqlClient.MySqlDataAdapter</span>
+$DataAdapter.Fill($DataSet)
+<span style="font-style:italic">#Mostrar los datos que contiene System.Data.DataSet</span>
+$DataSet.Tables
+
+<span style="font-style:italic">#Cerrar la conexión con MySQL cerrando el objeto MySql.Data.MySqlClient.MySqlConnection</span>
+$Connection.Close()
+
+<span style="font-style:italic">###########------------subida masiva de programas y hash a una bd------##########</span>
+<span style="font-weight:bold">foreach</span>($programas <span style="font-weight:bold">in</span> get-process)
+{
+    $PROGRAMAs.name
+    Get-FileHash $programas.path | select hash
+    $FILEHASH = (Get-FileHash $programas.path | select hash).hash
+    <span style="font-style:italic">&#34;- - - - - - - -&#34;</span>
+    <span style="font-style:italic">#Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.NET</span>
+    [void][System.Reflection.Assembly]::LoadWithPartialName(<span style="font-style:italic">&#34;MySql.Data&#34;</span>)
+
+    <span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlConnection que representa una conexión abierta a una base de datos del servidor MySQL</span>
+    <span style="font-style:italic">#Indicar en el constructor los paramétros necesarios para realizar la conexión: server, port, uid, pwd y database</span>
+    $Connection = ([MySql.Data.MySqlClient.MySqlConnection]::new(<span style="font-style:italic">&#34;server=&#34;</span> + <span style="font-style:italic">&#34;localhost&#34;</span> + <span style="font-style:italic">&#34;;port=3306;uid=&#34;</span> + <span style="font-style:italic">&#34;luis&#34;</span> + <span style="font-style:italic">&#34;;pwd=luison&#34;</span> + <span style="font-style:italic">&#34;;database=&#34;</span>+<span style="font-style:italic">&#34;antivirus&#34;</span>+<span style="font-style:italic">&#34;;SslMode=none&#34;</span>))
+    <span style="font-style:italic">#Ejecutar el método Open para conectar a la base de datos de MySQL</span>
+    $Connection.Open()
+
+    $Query = <span style="font-style:italic">&#39;INSERT INTO antivirus (HASH,PROGRAMA) VALUES (&#34;&#39;</span>+$FILEHASH+<span style="font-style:italic">&#39;&#34;,&#34;&#39;</span>+$PROGRAMAS.NAME+<span style="font-style:italic">&#39;&#34;);&#39;</span>
+    $Command = New-Object MySql.Data.MySqlClient.MySqlCommand($Query, $Connection)
+    $DataAdapter = New-Object MySql.Data.MySqlClient.MySqlDataAdapter($Command)
+    $DataSet = New-Object System.Data.DataSet
+    $RecordCount = $dataAdapter.Fill($dataSet, <span style="font-style:italic">&#34;data&#34;</span>)
+    $DataSet.Tables[0]
+    $Connection.Close()
+}
+
+<span style="font-style:italic">#####PIDO EL HASH QUE TENGO EN EL PC DEL AD DE UN PROGRAMA</span>
+$PETICION = Invoke-Command -ScriptBlock {
+
+                (Get-FileHash C:\Windows\system32\notepad.exe).HASH
+
+                                           } -EQUIPO1
+
+<span style="font-style:italic">##Iniciar BBDD</span>
+
+<span style="font-style:italic">#Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.NET</span>
+[void][System.Reflection.Assembly]::LoadWithPartialName(<span style="font-style:italic">&#34;MySql.Data&#34;</span>)
+
+<span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlConnection que representa una conexión abierta a una base de datos del servidor MySQL</span>
+<span style="font-style:italic">#Indicar en el constructor los paramétros necesarios para realizar la conexión: server, port, uid, pwd y database</span>
+$Connection = ([MySql.Data.MySqlClient.MySqlConnection]::new(<span style="font-style:italic">&#34;server=&#34;</span> + <span style="font-style:italic">&#34;localhost&#34;</span> + <span style="font-style:italic">&#34;;port=3306;uid=&#34;</span> + <span style="font-style:italic">&#34;luis&#34;</span> + <span style="font-style:italic">&#34;;pwd=luison&#34;</span> + <span style="font-style:italic">&#34;;database=&#34;</span>+<span style="font-style:italic">&#34;antivirus&#34;</span>+<span style="font-style:italic">&#34;;SslMode=none&#34;</span>))
+<span style="font-style:italic">#Ejecutar el método Open para conectar a la base de datos de MySQL</span>
+$Connection.Open()
+
+<span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlCommand que representa una instrucción SQL para ejecutar contra una base de datos MySQL</span>
+<span style="font-style:italic">#Indicar en el constructor la instrucción SQL para ejecutar y la conexión (realizada en el paso anterior)</span>
+$Query = <span style="font-style:italic">&#39;select hash from antivirus;&#39;</span>
+$Command = [MySql.Data.MySqlClient.MySqlCommand]::new($Query, $Connection)
+
+<span style="font-style:italic">#Crear un objeto MySql.Data.MySqlClient.MySqlDataAdapter que representa un conjunto de comandos de datos y una conexión de base de datos que se utilizan para llenar un conjunto de datos y actualizar una base de datos MySQL</span>
+<span style="font-style:italic">#Indicar en el constructor el objeto MySql.Data.MySqlClient.MySqlCommand creado anteriormente</span>
+$DataAdapter = [MySql.Data.MySqlClient.MySqlDataAdapter]::new($Command)
+
+<span style="font-style:italic">#Crear un objeto System.Data.DataSet que representa una caché de datos en memoria en donde se almacenan los datos obtenidos del objeto MySql.Data.MySqlClient.MySqlDataAdapter</span>
+$DataSet = [System.Data.DataSet]::new()
+<span style="font-style:italic">#Agregar en System.Data.DataSet los datos del objeto MySql.Data.MySqlClient.MySqlDataAdapter</span>
+$DataAdapter.Fill($DataSet)
+<span style="font-style:italic">#Mostrar los datos que contiene System.Data.DataSet</span>
+$DataSet.Tables
+
+<span style="font-weight:bold">foreach</span>($comparacion <span style="font-weight:bold">in</span> $DataSet.tables)
+{
+    <span style="font-weight:bold">If</span>($PETICION -eq $comparacion)
+        {<span style="font-style:italic">&#34;TODO BIEN&#34;</span>}
+      <span style="font-weight:bold">else</span>
+        {<span style="font-style:italic">&#34;Archivo modificado&#34;</span>}
+}
 </code></pre></div>
       </div>
 
