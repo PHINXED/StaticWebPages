@@ -24,8 +24,8 @@
 <meta property="og:description" content="Antivirus" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/en/posts/antivirus/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-10-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-10-07T00:00:00+00:00" />
+
+
 
 
 
@@ -159,8 +159,8 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2021-10-07T00:00:00Z'>
-                7 October, 2021
+              <time datetime='0001-01-01T00:00:00Z'>
+                1 January, 0001
               </time>
             </span>
             <span class="reading-time">
@@ -176,8 +176,7 @@
 
       <div>
         
-        <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">```powershell
-c:\xampp\mysql\bin\mysql.exe -u root
+        <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">c:\xampp\mysql\bin\mysql.exe -u root
 
 <span style="font-style:italic">#CREATE USER &#39;luis&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;luison&#39;;</span>
 
@@ -297,6 +296,7 @@ $DataAdapter.Fill($DataSet)
 <span style="font-style:italic">#Mostrar los datos que contiene System.Data.DataSet</span>
 $DataSet.Tables
 
+<span style="font-style:italic">####-------------COMPARACION DE HASH</span>
 <span style="font-weight:bold">foreach</span>($comparacion <span style="font-weight:bold">in</span> $DataSet.tables)
 {
     <span style="font-weight:bold">If</span>($PETICION -eq $comparacion)

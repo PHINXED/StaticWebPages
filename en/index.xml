@@ -6,16 +6,7 @@
     <description>Recent content on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Thu, 07 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Antivirus</title>
-      <link>/en/posts/antivirus/</link>
-      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/antivirus/</guid>
-      <description>```powershell c:\xampp\mysql\bin\mysql.exe -u root #CREATE USER &amp;#39;luis&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;luison&amp;#39;; #GRANT ALL PRIVILEGES ON *.* TO &amp;#39;usuario&amp;#39;@&amp;#39;localhost&amp;#39; WITH GRANT OPTION; #FLUSH PRIVILEGES; ########------------SACAR HASH DE PROGRAMAS---------------################ $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH $PROGRAMA = &amp;#34;notepad.exe&amp;#34; ########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------########## foreach($programas in get-process) { $programas.name Get-FileHash $programas.path | select hash &amp;#34;- - - - - - - -&amp;#34; } #Conectar con MySQL #Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 06 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Biblioteca Belica</title>
       <link>/en/posts/biblioteca-belica/</link>
@@ -61,6 +52,15 @@
       <guid>/en/posts/inversiones/</guid>
       <description> Current investments with real capital (not financial advice)
     PLATFORM LINK STATE      eToro HIBERNATING    JuicyFields IN ROTATION    </description>
+    </item>
+    
+    <item>
+      <title>Antivirus</title>
+      <link>/en/posts/antivirus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/antivirus/</guid>
+      <description>c:\xampp\mysql\bin\mysql.exe -u root #CREATE USER &amp;#39;luis&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;luison&amp;#39;; #GRANT ALL PRIVILEGES ON *.* TO &amp;#39;usuario&amp;#39;@&amp;#39;localhost&amp;#39; WITH GRANT OPTION; #FLUSH PRIVILEGES; ########------------SACAR HASH DE PROGRAMAS---------------################ $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH $PROGRAMA = &amp;#34;notepad.exe&amp;#34; ########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------########## foreach($programas in get-process) { $programas.name Get-FileHash $programas.path | select hash &amp;#34;- - - - - - - -&amp;#34; } #Conectar con MySQL #Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.</description>
     </item>
     
     <item>
