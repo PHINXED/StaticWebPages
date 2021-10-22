@@ -6,7 +6,16 @@
     <description>Recent content in Posts on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Wed, 06 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(Powershell) Antivirus</title>
+      <link>/posts/antivirus/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/antivirus/</guid>
+      <description>c:\xampp\mysql\bin\mysql.exe -u root #CREATE USER &amp;#39;luis&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;luison&amp;#39;; #GRANT ALL PRIVILEGES ON *.* TO &amp;#39;usuario&amp;#39;@&amp;#39;localhost&amp;#39; WITH GRANT OPTION; #FLUSH PRIVILEGES; ########------------SACAR HASH DE PROGRAMAS---------------################ $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH $PROGRAMA = &amp;#34;notepad.exe&amp;#34; ########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------########## foreach($programas in get-process) { $programas.name Get-FileHash $programas.path | select hash &amp;#34;- - - - - - - -&amp;#34; } #Conectar con MySQL #Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.</description>
+    </item>
+    
     <item>
       <title>Biblioteca Belica</title>
       <link>/posts/biblioteca-belica/</link>
@@ -17,16 +26,16 @@
     </item>
     
     <item>
-      <title>USUARIO Y OU DE W10 A AD</title>
-      <link>/posts/powershell-users-y-ou/</link>
+      <title>(Powershell) Usuario y ou en AD</title>
+      <link>/posts/user-y-ou/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/powershell-users-y-ou/</guid>
+      <guid>/posts/user-y-ou/</guid>
       <description>#Formulario $Form = New-Object System.Windows.Forms.Form $Form.Text=&amp;#34;Formulario&amp;#34; $Form.Size=New-Object System.Drawing.Size(500,500) $Form.StartPosition=&amp;#34;CenterScreen&amp;#34; #Etiqueta $Label=New-Object System.Windows.Forms.Label $Label.Text=&amp;#34;NOMBRE DE USUARIO&amp;#34; $Label.AutoSize=$True $Label.Location=New-Object System.Drawing.Size(150,70) #Etiqueta2 $Label2=New-Object System.Windows.Forms.Label $Label2.Text=&amp;#34;NOMBRE DE OU&amp;#34; $Label2.AutoSize=$True $Label2.Location=New-Object System.Drawing.Size(170,140) #Botón $Button=New-Object System.Windows.Forms.Button $Button.Size=New-Object System.Drawing.Size(75,23) $Button.Text=&amp;#34;ENTER&amp;#34; $Button.Location=New-Object System.Drawing.Size(150,210) #Botón2 $Button2=New-Object System.Windows.Forms.Button $Button2.Size=New-Object System.Drawing.Size(75,23) $Button2.Text=&amp;#34;EXIT&amp;#34; $Button2.Location=New-Object System.Drawing.Size(230,210) #Caja de texto $TextBox = New-Object System.Windows.Forms.TextBox $TextBox.Location = New-Object System.Drawing.Size(100,100) $TextBox.Size = New-Object System.Drawing.Size(260,20) #Caja de texto 2 $TextBox2 = New-Object System.Windows.Forms.TextBox $TextBox2.Location = New-Object System.Drawing.Size(100,170) $TextBox2.</description>
     </item>
     
     <item>
-      <title>ANALISIS FORENSE SCAM</title>
+      <title>(Analisis forense) scam PVU</title>
       <link>/posts/analisis-pvu/</link>
       <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -35,22 +44,13 @@
     </item>
     
     <item>
-      <title>INVERSIONES</title>
+      <title>Inversiones</title>
       <link>/posts/inversiones/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/posts/inversiones/</guid>
       <description> Inversiones en curso con capital real (no es un asesoramiento financiero)
     PLATFORMA LINK ACTIVIDAD      eToro HIBERNANDO    JuicyFields EN ROTACION    </description>
-    </item>
-    
-    <item>
-      <title>Antivirus</title>
-      <link>/posts/antivirus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/antivirus/</guid>
-      <description>c:\xampp\mysql\bin\mysql.exe -u root #CREATE USER &amp;#39;luis&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;luison&amp;#39;; #GRANT ALL PRIVILEGES ON *.* TO &amp;#39;usuario&amp;#39;@&amp;#39;localhost&amp;#39; WITH GRANT OPTION; #FLUSH PRIVILEGES; ########------------SACAR HASH DE PROGRAMAS---------------################ $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH $PROGRAMA = &amp;#34;notepad.exe&amp;#34; ########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------########## foreach($programas in get-process) { $programas.name Get-FileHash $programas.path | select hash &amp;#34;- - - - - - - -&amp;#34; } #Conectar con MySQL #Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.</description>
     </item>
     
   </channel>

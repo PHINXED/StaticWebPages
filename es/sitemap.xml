@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/antivirus/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/antivirus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/antivirus/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/"
+                />
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/"
+                />
+  </url><url>
     <loc>/posts/biblioteca-belica/</loc>
     <lastmod>2021-10-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,43 +54,17 @@
                 href="/posts/biblioteca-belica/"
                 />
   </url><url>
-    <loc>/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/"
-                />
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/"
-                />
-  </url><url>
-    <loc>/posts/powershell-users-y-ou/</loc>
+    <loc>/posts/user-y-ou/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/powershell-users-y-ou/"
+                href="/en/posts/user-y-ou/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/powershell-users-y-ou/"
+                href="/posts/user-y-ou/"
                 />
   </url><url>
     <loc>/posts/analisis-pvu/</loc>
@@ -81,18 +94,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/posts/inversiones/"
-                />
-  </url><url>
-    <loc>/posts/antivirus/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/antivirus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/antivirus/"
                 />
   </url><url>
     <loc>/authors/</loc>

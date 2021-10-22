@@ -17,20 +17,20 @@
     <meta name="keywords" content="blog,developer,personal,informatico">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Antivirus"/>
+<meta name="twitter:title" content="(Powershell) Antivirus"/>
 <meta name="twitter:description" content="Antivirus"/>
 
-    <meta property="og:title" content="Antivirus" />
+    <meta property="og:title" content="(Powershell) Antivirus" />
 <meta property="og:description" content="Antivirus" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/antivirus/" /><meta property="article:section" content="posts" />
-
-
+<meta property="article:published_time" content="2021-10-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-10-20T00:00:00+00:00" />
 
 
 
     <title>
-  Antivirus · PHINXMADRID
+  (Powershell) Antivirus · PHINXMADRID
 </title>
 
     
@@ -151,7 +151,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="/posts/antivirus/">
-              Antivirus
+              (Powershell) Antivirus
             </a>
           </h1>
         </div>
@@ -159,8 +159,8 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='0001-01-01T00:00:00Z'>
-                1 January, 0001
+              <time datetime='2021-10-20T00:00:00Z'>
+                20 October, 2021
               </time>
             </span>
             <span class="reading-time">
@@ -267,7 +267,8 @@ $PETICION = Invoke-Command -ScriptBlock {
 
                 (Get-FileHash C:\Windows\system32\notepad.exe).HASH
 
-                                           } -EQUIPO1
+                                           } -Computername <span style="font-style:italic">&#34;EQUIPO1&#34;</span>
+
 
 <span style="font-style:italic">##Iniciar BBDD</span>
 
