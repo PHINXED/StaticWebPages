@@ -176,15 +176,22 @@
 
       <div>
         
-        <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">c:\xampp\mysql\bin\mysql.exe -u root
+        <h3 id="capturas">
+  CAPTURAS
+  <a class="heading-link" href="#capturas">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><img src="/images/antivirus/antivirus1.png" alt="error"></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">c:\xampp\mysql\bin\mysql.exe<span style="font-style:italic"> -u root</span>
 
-<span style="font-style:italic">#CREATE USER &#39;luis&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;luison&#39;;</span>
+#CREATE USER &#39;luis&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;luison&#39;;
 
-<span style="font-style:italic">#GRANT ALL PRIVILEGES ON *.* TO &#39;usuario&#39;@&#39;localhost&#39; WITH GRANT OPTION;</span>
+#GRANT ALL PRIVILEGES ON *.* TO &#39;usuario&#39;@&#39;localhost&#39; WITH GRANT OPTION;
 
-<span style="font-style:italic">#FLUSH PRIVILEGES;</span>
-
-<span style="font-style:italic">########------------SACAR HASH DE PROGRAMAS---------------################</span>
+#FLUSH PRIVILEGES;
+</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="font-style:italic">########------------SACAR HASH DE PROGRAMAS---------------################</span>
 $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH
 $PROGRAMA = <span style="font-style:italic">&#34;notepad.exe&#34;</span>
 
@@ -195,8 +202,8 @@ $PROGRAMA = <span style="font-style:italic">&#34;notepad.exe&#34;</span>
     Get-FileHash $programas.path | select hash
     <span style="font-style:italic">&#34;- - - - - - - -&#34;</span>
 }
-
-<span style="font-style:italic">#Conectar con MySQL</span>
+</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="font-style:italic">#Conectar con MySQL</span>
 
 <span style="font-style:italic">#Cargar el espacio de nombres MySql.Data que proporciona acceso a clases que representan la arquitectura ADO.NET</span>
 [void][System.Reflection.Assembly]::LoadWithPartialName(<span style="font-style:italic">&#34;MySql.Data&#34;</span>)
@@ -236,8 +243,8 @@ $DataSet.Tables
 
 <span style="font-style:italic">#Cerrar la conexión con MySQL cerrando el objeto MySql.Data.MySqlClient.MySqlConnection</span>
 $Connection.Close()
-
-<span style="font-style:italic">###########------------subida masiva de programas y hash a una bd------##########</span>
+</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="font-style:italic">###########------------SUBIDA MASIVA DE HASH Y PROGRAMAS A UNA BBDD------##########</span>
 <span style="font-weight:bold">foreach</span>($programas <span style="font-weight:bold">in</span> get-process)
 {
     $PROGRAMAs.name
