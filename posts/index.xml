@@ -6,7 +6,17 @@
     <description>Recent content in Posts on PHINXMADRID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>EN</language>
-    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(VULNERABILIDAD) NESUS</title>
+      <link>/posts/nessus/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/nessus/</guid>
+      <description> Busqueda de vulnerabilidades con NESSUS en Linux (KALI).
+          </description>
+    </item>
+    
     <item>
       <title>(SQL Y PHP) Red Social Casera</title>
       <link>/posts/redsocial/</link>
@@ -61,7 +71,7 @@ CAPTURAS      </description>
       
       <guid>/posts/inversiones/</guid>
       <description> Inversiones en curso con capital real (no es un asesoramiento financiero)
-    PLATFORMA LINK      eToro    JuicyFields    Dragonary    </description>
+    PLATFORMA LINK      eToro    JuicyFields    Dragonary    [COIN FARM]    </description>
     </item>
     
   </channel>
