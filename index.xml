@@ -47,6 +47,16 @@ CAPTURAS      </description>
     </item>
     
     <item>
+      <title>(Powershell y Raspberry) Radar</title>
+      <link>/posts/radar/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/radar/</guid>
+      <description>-Descargar y descomprimir: DUMP1090: https://github.com/MalcolmRobb/dump1090/blob/master/dump1090-win.1.10.3010.14.zip DRIVER ANTENA:	https://airspy.com/download/ -Antena: https://www.amazon.es/gp/product/B00P2UOU72/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;amp;psc=1
+Install-Module -Name Posh-SSH -RequiredVersion 2.0.2 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned Set-Location C:\Users\PHINX\Desktop\dump1090-win.1.10.3010.14 Start-Process -File .\dump1090.bat -RedirectStandardOutput resultado.txt Start-Sleep -Seconds 30 Stop-Process -Name cmd Stop-Process -Name dump1090 Get-Content resultado.txt | Out-File procesado.txt -Append rm resultado.txt Start-Sleep -Seconds 5 (Get-Content .\procesado.txt) -split &amp;#34;`n&amp;#34; | %{ $_ | Select-String &amp;#34; S &amp;#34; | Out-File fin.txt -Append } $fly=Import-Csv -Encoding Unicode .\fin.txt rm .\soluc.txt &amp;#34;Hex ,Mode ,Sqwk ,Flight ,Alt ,Spd ,Hdg ,Lat ,Long ,Sig ,Msgs ,Ti&amp;#34; | out-file soluc.</description>
+    </item>
+    
+    <item>
       <title>(Powershell) Usuario y ou en AD</title>
       <link>/posts/user-y-ou/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
