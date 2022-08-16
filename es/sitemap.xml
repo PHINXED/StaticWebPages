@@ -2,103 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/nessus/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/nessus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/nessus/"
-                />
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/"
-                />
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/"
-                />
-  </url><url>
-    <loc>/posts/redsocial/</loc>
-    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/antivirus/</loc>
-    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/antivirus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/antivirus/"
-                />
-  </url><url>
-    <loc>/posts/biblioteca-belica/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/biblioteca-belica/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/biblioteca-belica/"
-                />
-  </url><url>
-    <loc>/posts/radar/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/radar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/radar/"
-                />
-  </url><url>
-    <loc>/posts/user-y-ou/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/user-y-ou/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/user-y-ou/"
-                />
-  </url><url>
-    <loc>/posts/analisis-pvu/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/about/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -112,18 +15,21 @@
                 href="/about/"
                 />
   </url><url>
-    <loc>/posts/inversiones/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <loc>/posts/forbix/</loc>
+  </url><url>
+    <loc>/posts/nessus/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/inversiones/"
+                href="/en/posts/nessus/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/posts/inversiones/"
+                href="/posts/nessus/"
                 />
+  </url><url>
+    <loc>/posts/analisis-pvu/</loc>
   </url><url>
     <loc>/authors/</loc>
     <xhtml:link
@@ -173,6 +79,66 @@
                 href="/bitacora/"
                 />
   </url><url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/"
+                />
+  </url><url>
+    <loc>/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/"
+                />
+  </url><url>
+    <loc>/posts/antivirus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/antivirus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/antivirus/"
+                />
+  </url><url>
+    <loc>/posts/radar/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/radar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/radar/"
+                />
+  </url><url>
+    <loc>/posts/user-y-ou/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/user-y-ou/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/user-y-ou/"
+                />
+  </url><url>
     <loc>/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -184,6 +150,8 @@
                 hreflang="es"
                 href="/series/"
                 />
+  </url><url>
+    <loc>/posts/redsocial/</loc>
   </url><url>
     <loc>/newsboard/</loc>
     <xhtml:link

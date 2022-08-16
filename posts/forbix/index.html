@@ -13,28 +13,28 @@
     
 
     <meta name="author" content="PHINX MADRID">
-    <meta name="description" content="SQL | PHP | Red Social Casera">
+    <meta name="description" content="Analisis Forense | Gusano Forbix">
     <meta name="keywords" content="blog,developer,personal,informatico">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="SQL | PHP | Red Social Casera"/>
-<meta name="twitter:description" content="SQL | PHP | Red Social Casera"/>
+<meta name="twitter:title" content="Analisis Forense | Gusano Forbix"/>
+<meta name="twitter:description" content="Analisis Forense | Gusano Forbix"/>
 
-    <meta property="og:title" content="SQL | PHP | Red Social Casera" />
-<meta property="og:description" content="SQL | PHP | Red Social Casera" />
+    <meta property="og:title" content="Analisis Forense | Gusano Forbix" />
+<meta property="og:description" content="Analisis Forense | Gusano Forbix" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/redsocial/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="/posts/forbix/" /><meta property="article:section" content="posts" />
 
 
 
 
 
     <title>
-  SQL | PHP | Red Social Casera · PHINX MADRID
+  Analisis Forense | Gusano Forbix · PHINX MADRID
 </title>
 
     
-      <link rel="canonical" href="/posts/redsocial/">
+      <link rel="canonical" href="/posts/forbix/">
     
 
     <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -148,8 +148,8 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="/posts/redsocial/">
-              SQL | PHP | Red Social Casera
+            <a class="title-link" href="/posts/forbix/">
+              Analisis Forense | Gusano Forbix
             </a>
           </h1>
         </div>
@@ -163,7 +163,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              Un minuto de lectura
+              3 minutos de lectura.
             </span>
           </div>
           
@@ -174,19 +174,28 @@
 
       <div>
         
-        <p><a href="https://github.com/PHINXED/RED-SOCIAL-CASERA">!!! CODIGO EN GITHUB !!!</a></p>
-<p>ESTA CONECTADA A UNA BASE DE DATOS (PHPMYADMIN) EN DONDE REGISTRARA Y CONSULTARA TANTO LOS USUARIOS COMO PASSWORD ASI COMO LOS POST</p>
-<h2 id="capturas">
-  CAPTURAS
-  <a class="heading-link" href="#capturas">
+        <h1 id="gusano-forbix">
+  Gusano &ldquo;Forbix&rdquo;
+  <a class="heading-link" href="#gusano-forbix">
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
-</h2>
-<p><img src="/images/helena1.png" alt="error"></p>
-<hr>
-<p><img src="/images/helena2.png" alt="error"></p>
-<hr>
-<p><img src="/images/helena3.png" alt="error"></p>
+</h1>
+<blockquote>
+<p>Caso real de busqueda y eliminacion de este en 2022.</p>
+</blockquote>
+<p>Todo esto empezo un dia en donde una persona acudio a mi por que sus usb no funcionaban bien, a veces veia el contenido en estos, y otras no, siendo esto aleatoriamente, pero a la hora de ver el almacenamiento, este no estaba vacio, ocupaba 2gb que es lo que pesaban los archivos.</p>
+<p>Entonces le pedi que me trajese los usb para ver que les pasaba, en efecto al poner el primero no se veian los archivos ni en oculto, pero el peso de estos si se podia ver reflejado en el almacenamiento.</p>
+<p>Fue entonces cuando le pedi otro usb y al ponerlo, estos debieron de &ldquo;colisionar&rdquo; de alguna forma, y se vieron al instante los archivos en los dos, esto me causo una confusion y a la vez un mal presentimiento, ya que ademas al fijarme todo eran accesos directos a archivos, los cuales haciendo doble click te abrian los documentos (un sin sentido), pero hubo dos cosas que me pusieron en alarma al instante, una carpeta llamada System Volume Information y que si inspeccionabas cualquier archivo la ruta de destino llamaba al cmd, fue en ese momento en donde arranque los ucb de mi ordenador.</p>
+<p>Rapidamente observe mi antivirus, y no, no se quejo de nada pero no me cuadraba para nada, ya que parecia algo que se replicaba y mi antivirus no dijo nada, por lo cual inicie un analisis, en donde me salieron advertencias de modificaciones del registro y archivos en carpetas que no se veian ni en oculto, como el famoso Manuel.doc.</p>
+<p>Buscando en internet, el autor de este virus ha debido de actualizarlo para que no sea tan sencillo de eliminar parando el proceso wscript y los servicios, empezamos.</p>
+<p><img src="/images/forbix/wscript.PNG" alt=""></p>
+<p>Primero intente aislarlo a base de pasar el antivirus y meterlo en cuarentena pero esto no fue nada efectivo.
+Asique gracias a este vi dos rutas en donde se alojaba nuestro amigo, una en el registro en donde creaba una regla, al principio la borraba y lo daba por hecho hasta que vi que se volvia a crear al instante,
+en ese momento busque en otro lugar ya que esa regla la estaba creando o alimentando desde otro lugar, asique fui al segundo lado, un archivo en la carpeta temp de %appdata%, pero a mi asombro no estaba,
+ni en oculto era un archivo que por asi decirlo estaba en alma pero no en cuerpo y decidi borrar todo pero tampoco podia, debido a que mi ordenador se quejaba innumerables veces y de carpetas que estan en uso,
+en ese momento decidi bajar un nivel mas en directorio y borrar la carpeta temp, pero tampoco podia, por el mismo hecho que anteriormente, aqui comence a parar procesos a ciegas, y borraba la clave para ver si asi habia eliminido al fantasma,
+hasta que llegue a un punto en donde se quejaba de Adobe, en ese momento me quede oensativo
+<img src="/forbix/imagen.png" alt=""></p>
 
       </div>
 

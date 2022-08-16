@@ -1,79 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PHINXMADRID</title>
+    <title>PHINX MADRID</title>
     <link>/</link>
-    <description>Recent content on PHINXMADRID</description>
+    <description>Recent content on PHINX MADRID</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>EN</language>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>(VULNERABILIDAD) NESUS</title>
-      <link>/posts/nessus/</link>
-      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/nessus/</guid>
-      <description> Busqueda de vulnerabilidades con NESSUS en Linux (KALI).
-          </description>
-    </item>
-    
-    <item>
-      <title>(SQL Y PHP) Red Social Casera</title>
-      <link>/posts/redsocial/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/redsocial/</guid>
-      <description>!!! CODIGO EN GITHUB !!!
-ESTA CONECTADA A UNA BASE DE DATOS (PHPMYADMIN) EN DONDE REGISTRARA Y CONSULTARA TANTO LOS USUARIOS COMO PASSWORD ASI COMO LOS POST
-CAPTURAS      </description>
-    </item>
-    
-    <item>
-      <title>(Powershell) Antivirus</title>
-      <link>/posts/antivirus/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/antivirus/</guid>
-      <description>CAPTURAS    c:\xampp\mysql\bin\mysql.exe-u root #CREATE USER &amp;#39;luis&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;luison&amp;#39;; #GRANT ALL PRIVILEGES ON *.* TO &amp;#39;usuario&amp;#39;@&amp;#39;localhost&amp;#39; WITH GRANT OPTION; #FLUSH PRIVILEGES;  ########------------SACAR HASH DE PROGRAMAS---------------################ $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH $PROGRAMA = &amp;#34;notepad.exe&amp;#34; ########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------########## foreach($programas in get-process) { $programas.name Get-FileHash $programas.path | select hash &amp;#34;- - - - - - - -&amp;#34; }  #Conectar con MySQL #Cargar el espacio de nombres MySql.</description>
-    </item>
-    
-    <item>
-      <title>Biblioteca Belica</title>
-      <link>/posts/biblioteca-belica/</link>
-      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/biblioteca-belica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>(Powershell y Raspberry) Radar</title>
-      <link>/posts/radar/</link>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/radar/</guid>
-      <description>ESQUEMA CONEXIONES RASPBERRY:     CAPTAR AVIONES EN TRANSITO CON LA ANTENA Y ENVIAR A LA RASPBERRY UNA SENAL PARA ENCENDER UN LED DE AVISO.
-Descargar y descomprimir:     DUMP1090: https://github.com/MalcolmRobb/dump1090/blob/master/dump1090-win.1.10.3010.14.zip DRIVER ANTENA: https://airspy.com/download/ Antena: https://www.amazon.es/gp/product/B00P2UOU72/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;amp;psc=1   Install-Module -Name Posh-SSH -RequiredVersion 2.0.2 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned Set-Location C:\Users\PHINX\Desktop\dump1090-win.1.10.3010.14 Start-Process -File .\dump1090.bat -RedirectStandardOutput resultado.txt Start-Sleep -Seconds 30 Stop-Process -Name cmd Stop-Process -Name dump1090 Get-Content resultado.txt | Out-File procesado.</description>
-    </item>
-    
-    <item>
-      <title>(Powershell) Usuario y ou en AD</title>
-      <link>/posts/user-y-ou/</link>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/user-y-ou/</guid>
-      <description>#Formulario $Form = New-Object System.Windows.Forms.Form $Form.Text=&amp;#34;Formulario&amp;#34; $Form.Size=New-Object System.Drawing.Size(500,500) $Form.StartPosition=&amp;#34;CenterScreen&amp;#34; #Etiqueta $Label=New-Object System.Windows.Forms.Label $Label.Text=&amp;#34;NOMBRE DE USUARIO&amp;#34; $Label.AutoSize=$True $Label.Location=New-Object System.Drawing.Size(150,70) #Etiqueta2 $Label2=New-Object System.Windows.Forms.Label $Label2.Text=&amp;#34;NOMBRE DE OU&amp;#34; $Label2.AutoSize=$True $Label2.Location=New-Object System.Drawing.Size(170,140) #Botón $Button=New-Object System.Windows.Forms.Button $Button.Size=New-Object System.Drawing.Size(75,23) $Button.Text=&amp;#34;ENTER&amp;#34; $Button.Location=New-Object System.Drawing.Size(150,210) #Botón2 $Button2=New-Object System.Windows.Forms.Button $Button2.Size=New-Object System.Drawing.Size(75,23) $Button2.Text=&amp;#34;EXIT&amp;#34; $Button2.Location=New-Object System.Drawing.Size(230,210) #Caja de texto $TextBox = New-Object System.Windows.Forms.TextBox $TextBox.Location = New-Object System.Drawing.Size(100,100) $TextBox.Size = New-Object System.Drawing.Size(260,20) #Caja de texto 2 $TextBox2 = New-Object System.Windows.Forms.TextBox $TextBox2.Location = New-Object System.Drawing.Size(100,170) $TextBox2.</description>
-    </item>
-    
-    <item>
-      <title>(Analisis forense) scam PVU</title>
-      <link>/posts/analisis-pvu/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/analisis-pvu/</guid>
-      <description>ACTUACION FRAUDULENTA EN PLANTSVSUNDEAD    Analisis de un hacker que ha ejecutado un scam contra los usuarios aprovechandose de los administradores:    La pagina es la siguiente, con direccion terminada en .com     Dentro de un post oficial encontramos lo siguiente:     En donde encontramos anuncios del “soporte”, repetidas en muchas ocasiones:     Con estos dos links:    Marketplace.</description>
-    </item>
-    
+    <language>EN</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sobre mi</title>
       <link>/about/</link>
@@ -84,13 +16,32 @@ Descargar y descomprimir:     DUMP1090: https://github.com/MalcolmRobb/dump1090/
     </item>
     
     <item>
-      <title>Inversiones</title>
-      <link>/posts/inversiones/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Analisis Forense | Gusano Forbix</title>
+      <link>/posts/forbix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/inversiones/</guid>
-      <description> Inversiones en curso con capital real (no es un asesoramiento financiero)
-    PLATFORMA LINK      ETORO    JUICY FIELDS    DRAGONARY    COIN FARM    THETAN ARENA    </description>
+      <guid>/posts/forbix/</guid>
+      <description>Gusano &amp;ldquo;Forbix&amp;rdquo;     Caso real de busqueda y eliminacion de este en 2022.
+ Todo esto empezo un dia en donde una persona acudio a mi por que sus usb no funcionaban bien, a veces veia el contenido en estos, y otras no, siendo esto aleatoriamente, pero a la hora de ver el almacenamiento, este no estaba vacio, ocupaba 2gb que es lo que pesaban los archivos.</description>
+    </item>
+    
+    <item>
+      <title>Analisis Forense | Nesus</title>
+      <link>/posts/nessus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/nessus/</guid>
+      <description> Busqueda de vulnerabilidades con NESSUS en Linux (KALI).
+          </description>
+    </item>
+    
+    <item>
+      <title>Analisis forense | Scam PVU</title>
+      <link>/posts/analisis-pvu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/analisis-pvu/</guid>
+      <description>ACTUACION FRAUDULENTA EN PLANTSVSUNDEAD    Analisis de un hacker que ha ejecutado un scam contra los usuarios aprovechandose de los administradores:    La pagina es la siguiente, con direccion terminada en .com     Dentro de un post oficial encontramos lo siguiente:     En donde encontramos anuncios del “soporte”, repetidas en muchas ocasiones:     Con estos dos links:    Marketplace.</description>
     </item>
     
     <item>
@@ -109,6 +60,45 @@ Descargar y descomprimir:     DUMP1090: https://github.com/MalcolmRobb/dump1090/
       
       <guid>/bitacora/</guid>
       <description> Beta 1.0 : 21/09/21 (Lanzamiento de proyecto web) Actualizacion 1.01 : 24/09/21 (Actualizacion de interfaces y contenido)  </description>
+    </item>
+    
+    <item>
+      <title>Powershell | Antivirus</title>
+      <link>/posts/antivirus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/antivirus/</guid>
+      <description>CAPTURAS    c:\xampp\mysql\bin\mysql.exe-u root #CREATE USER &amp;#39;luis&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;luison&amp;#39;; #GRANT ALL PRIVILEGES ON *.* TO &amp;#39;usuario&amp;#39;@&amp;#39;localhost&amp;#39; WITH GRANT OPTION; #FLUSH PRIVILEGES;  ########------------SACAR HASH DE PROGRAMAS---------------################ $HASH = (Get-FileHash C:\Windows\system32\notepad.exe).HASH $PROGRAMA = &amp;#34;notepad.exe&amp;#34; ########------FOREACH QUE RELACIONA PROCESOS, NOMBRE Y HASH-------########## foreach($programas in get-process) { $programas.name Get-FileHash $programas.path | select hash &amp;#34;- - - - - - - -&amp;#34; }  #Conectar con MySQL #Cargar el espacio de nombres MySql.</description>
+    </item>
+    
+    <item>
+      <title>Powershell | Raspberry | Radar</title>
+      <link>/posts/radar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/radar/</guid>
+      <description>ESQUEMA CONEXIONES RASPBERRY:     CAPTAR AVIONES EN TRANSITO CON LA ANTENA Y ENVIAR A LA RASPBERRY UNA SENAL PARA ENCENDER UN LED DE AVISO.
+Descargar y descomprimir:     DUMP1090: https://github.com/MalcolmRobb/dump1090/blob/master/dump1090-win.1.10.3010.14.zip DRIVER ANTENA: https://airspy.com/download/ Antena: https://www.amazon.es/gp/product/B00P2UOU72/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;amp;psc=1   Install-Module -Name Posh-SSH -RequiredVersion 2.0.2 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned Set-Location C:\Users\PHINX\Desktop\dump1090-win.1.10.3010.14 Start-Process -File .\dump1090.bat -RedirectStandardOutput resultado.txt Start-Sleep -Seconds 30 Stop-Process -Name cmd Stop-Process -Name dump1090 Get-Content resultado.txt | Out-File procesado.</description>
+    </item>
+    
+    <item>
+      <title>Powershell | Usuario y ou en AD</title>
+      <link>/posts/user-y-ou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/user-y-ou/</guid>
+      <description>#Formulario $Form = New-Object System.Windows.Forms.Form $Form.Text=&amp;#34;Formulario&amp;#34; $Form.Size=New-Object System.Drawing.Size(500,500) $Form.StartPosition=&amp;#34;CenterScreen&amp;#34; #Etiqueta $Label=New-Object System.Windows.Forms.Label $Label.Text=&amp;#34;NOMBRE DE USUARIO&amp;#34; $Label.AutoSize=$True $Label.Location=New-Object System.Drawing.Size(150,70) #Etiqueta2 $Label2=New-Object System.Windows.Forms.Label $Label2.Text=&amp;#34;NOMBRE DE OU&amp;#34; $Label2.AutoSize=$True $Label2.Location=New-Object System.Drawing.Size(170,140) #Botón $Button=New-Object System.Windows.Forms.Button $Button.Size=New-Object System.Drawing.Size(75,23) $Button.Text=&amp;#34;ENTER&amp;#34; $Button.Location=New-Object System.Drawing.Size(150,210) #Botón2 $Button2=New-Object System.Windows.Forms.Button $Button2.Size=New-Object System.Drawing.Size(75,23) $Button2.Text=&amp;#34;EXIT&amp;#34; $Button2.Location=New-Object System.Drawing.Size(230,210) #Caja de texto $TextBox = New-Object System.Windows.Forms.TextBox $TextBox.Location = New-Object System.Drawing.Size(100,100) $TextBox.Size = New-Object System.Drawing.Size(260,20) #Caja de texto 2 $TextBox2 = New-Object System.Windows.Forms.TextBox $TextBox2.Location = New-Object System.Drawing.Size(100,170) $TextBox2.</description>
+    </item>
+    
+    <item>
+      <title>SQL | PHP | Red Social Casera</title>
+      <link>/posts/redsocial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/redsocial/</guid>
+      <description>!!! CODIGO EN GITHUB !!!
+ESTA CONECTADA A UNA BASE DE DATOS (PHPMYADMIN) EN DONDE REGISTRARA Y CONSULTARA TANTO LOS USUARIOS COMO PASSWORD ASI COMO LOS POST
+CAPTURAS      </description>
     </item>
     
     <item>

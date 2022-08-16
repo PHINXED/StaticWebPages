@@ -12,25 +12,25 @@
 
     
 
-    <meta name="author" content="PHINX">
-    <meta name="description" content="Usuario y ou en AD">
+    <meta name="author" content="PHINX MADRID">
+    <meta name="description" content="Powershell | Raspberry | Radar">
     <meta name="keywords" content="blog,developer,personal,informatico">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="(Powershell) Usuario y ou en AD"/>
-<meta name="twitter:description" content="Usuario y ou en AD"/>
+<meta name="twitter:title" content="Powershell | Raspberry | Radar"/>
+<meta name="twitter:description" content="Powershell | Raspberry | Radar"/>
 
-    <meta property="og:title" content="(Powershell) Usuario y ou en AD" />
-<meta property="og:description" content="Usuario y ou en AD" />
+    <meta property="og:title" content="Powershell | Raspberry | Radar" />
+<meta property="og:description" content="Powershell | Raspberry | Radar" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/en/posts/radar/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-10-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-10-05T00:00:00+00:00" />
+
+
 
 
 
     <title>
-  (Powershell) Usuario y ou en AD · PHINXMADRID
+  Powershell | Raspberry | Radar · PHINX MADRID
 </title>
 
     
@@ -89,7 +89,7 @@
       <nav class="navigation">
   <section class="container">
     <a class="navigation-title" href="/en">
-      PHINXMADRID
+      PHINX MADRID
     </a>
     
       <input type="checkbox" id="menu-toggle" />
@@ -109,10 +109,6 @@
           
             <li class="navigation-item">
               <a class="navigation-link" href="/en/newsboard">News board</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link" href="/en/bitacora">Logbook</a>
             </li>
           
             <li class="navigation-item">
@@ -151,7 +147,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="/en/posts/radar/">
-              (Powershell) Usuario y ou en AD
+              Powershell | Raspberry | Radar
             </a>
           </h1>
         </div>
@@ -159,13 +155,13 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2021-10-05T00:00:00Z'>
-                5 October, 2021
+              <time datetime='0001-01-01T00:00:00Z'>
+                1 January, 0001
               </time>
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              2-minute read
+              One-minute read
             </span>
           </div>
           
@@ -176,93 +172,66 @@
 
       <div>
         
-        <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="font-style:italic">#Formulario</span>
-$Form = New-Object System.Windows.Forms.Form
-$Form.Text=<span style="font-style:italic">&#34;Formulario&#34;</span>
-$Form.Size=New-Object System.Drawing.Size(500,500)
-$Form.StartPosition=<span style="font-style:italic">&#34;CenterScreen&#34;</span>
+        <h3 id="esquema-conexiones-raspberry">
+  ESQUEMA CONEXIONES RASPBERRY:
+  <a class="heading-link" href="#esquema-conexiones-raspberry">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><img src="/images/ras/1.png" alt="error"></p>
+<hr>
+<p>CAPTAR AVIONES EN TRANSITO CON LA ANTENA Y ENVIAR A LA RASPBERRY UNA SENAL PARA ENCENDER UN LED DE AVISO.</p>
+<h3 id="descargar-y-descomprimir">
+  Descargar y descomprimir:
+  <a class="heading-link" href="#descargar-y-descomprimir">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>DUMP1090: <a href="https://github.com/MalcolmRobb/dump1090/blob/master/dump1090-win.1.10.3010.14.zip">https://github.com/MalcolmRobb/dump1090/blob/master/dump1090-win.1.10.3010.14.zip</a></li>
+<li>DRIVER ANTENA: <a href="https://airspy.com/download/">https://airspy.com/download/</a></li>
+<li>Antena: <a href="https://www.amazon.es/gp/product/B00P2UOU72/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1">https://www.amazon.es/gp/product/B00P2UOU72/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1</a></li>
+</ul>
+<hr>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">
+Install-Module -Name Posh-SSH -RequiredVersion 2.0.2
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
-<span style="font-style:italic">#Etiqueta</span>
-$Label=New-Object System.Windows.Forms.Label
-$Label.Text=<span style="font-style:italic">&#34;NOMBRE DE USUARIO&#34;</span>
-$Label.AutoSize=$True
-$Label.Location=New-Object System.Drawing.Size(150,70)
+Set-Location C:\Users\PHINX\Desktop\dump1090-win.1.10.3010.14
 
-<span style="font-style:italic">#Etiqueta2</span>
-$Label2=New-Object System.Windows.Forms.Label
-$Label2.Text=<span style="font-style:italic">&#34;NOMBRE DE OU&#34;</span>
-$Label2.AutoSize=$True
-$Label2.Location=New-Object System.Drawing.Size(170,140)
+Start-Process -File .\dump1090.bat -RedirectStandardOutput resultado.txt
+Start-Sleep -Seconds 30
+Stop-Process -Name cmd
+Stop-Process -Name dump1090
+Get-Content resultado.txt | Out-File procesado.txt -Append
+rm resultado.txt
+ 
+Start-Sleep -Seconds 5
+(Get-Content .\procesado.txt) -split <span style="font-style:italic">&#34;</span><span style="font-weight:bold;font-style:italic">`n</span><span style="font-style:italic">&#34;</span> | %{
+$_ | Select-String <span style="font-style:italic">&#34; S &#34;</span> | Out-File fin.txt -Append
+}
 
-<span style="font-style:italic">#Botón</span>
-$Button=New-Object System.Windows.Forms.Button
-$Button.Size=New-Object System.Drawing.Size(75,23)
-$Button.Text=<span style="font-style:italic">&#34;ENTER&#34;</span>
-$Button.Location=New-Object System.Drawing.Size(150,210)
+$fly=Import-Csv -Encoding Unicode .\fin.txt
+rm .\soluc.txt
+<span style="font-style:italic">&#34;Hex     ,Mode  ,Sqwk  ,Flight   ,Alt    ,Spd  ,Hdg    ,Lat      ,Long   ,Sig  ,Msgs   ,Ti&#34;</span> | out-file soluc.txt
+$fly.H1 -split <span style="font-style:italic">&#34;</span><span style="font-weight:bold;font-style:italic">`n</span><span style="font-style:italic">&#34;</span> | %{($_).Substring(0,8)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(8,6)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(14,6)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(20,9)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(29,7)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(36,5)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(41,6)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(47,9)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(56,9)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(65,6)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(71,6)+<span style="font-style:italic">&#34;,&#34;</span>+($_).Substring(77,1) | Out-File soluc.txt -append}
+ 
+$flyfinal=Import-Csv -Encoding Unicode .\soluc.txt
+$flyfinal.<span style="font-style:italic">&#39;Flight &#39;</span> | Group-Object
+$flyfinal.<span style="font-style:italic">&#39;Flight &#39;</span> | Group-Object | Select name | Select-String <span style="font-style:italic">&#34;BAW2799&#34;</span>
 
-<span style="font-style:italic">#Botón2</span>
-$Button2=New-Object System.Windows.Forms.Button
-$Button2.Size=New-Object System.Drawing.Size(75,23)
-$Button2.Text=<span style="font-style:italic">&#34;EXIT&#34;</span>
-$Button2.Location=New-Object System.Drawing.Size(230,210)
-
-<span style="font-style:italic">#Caja de texto</span>
-$TextBox = New-Object System.Windows.Forms.TextBox
-$TextBox.Location = New-Object System.Drawing.Size(100,100)
-$TextBox.Size = New-Object System.Drawing.Size(260,20)
-
-<span style="font-style:italic">#Caja de texto 2</span>
-$TextBox2 = New-Object System.Windows.Forms.TextBox
-$TextBox2.Location = New-Object System.Drawing.Size(100,170)
-$TextBox2.Size = New-Object System.Drawing.Size(260,20)
-
-<span style="font-style:italic">#Funcionalidad para el formulario:</span>
-<span style="font-style:italic">#Pulsar la tecla Enter almacena en una variable el contenido de la caja de texto y se muestra</span>
-<span style="font-style:italic">#Pulsar la tecla Escape sale del formulario</span>
-$Form.KeyPreview = $True
-$Form.Add_KeyDown({<span style="font-weight:bold">if</span> ($_.KeyCode -eq <span style="font-style:italic">&#34;Enter&#34;</span>){$USUARIOCLASS = $TextBox.Text ; $OUCLASS = $TextBox2.Text; Write-Host $USUARIOCLASS ,$OUCLASS}})
-$Form.Add_KeyDown({<span style="font-weight:bold">if</span> ($_.KeyCode -eq <span style="font-style:italic">&#34;Escape&#34;</span>){$Form.Close()}})
-
-<span style="font-style:italic">#Funcionalidad para el botón:</span>
-<span style="font-style:italic">#Pulsar Enter almacena en una variable el contenido de la caja de texto y se muestra</span>
-<span style="font-style:italic">#Pulsar Escape sale del formulario</span>
-$Button.Add_Click({$USUARIOCLASS = $TextBox.Text ; $OUCLASS = $TextBox2.Text; Write-Host $USUARIOCLASS,$OUCLASS})
-$Button2.Add_Click({$Form.Close()})
-
-<span style="font-style:italic">#Añadir etiqueta</span>
-$Form.Controls.Add($Label)
-$Form.Controls.Add($Label2)
-
-<span style="font-style:italic">#Añadir botón</span>
-$Form.Controls.Add($Button)
-$Form.Controls.Add($Button2)
-
-<span style="font-style:italic">#Añadir caja de texto</span>
-$Form.Controls.Add($TextBox)
-$Form.Controls.Add($TextBox2)
-
-$Form.ShowDialog()
-
-
-<span style="font-style:italic"># Crear array de objetos Operacion</span>
-$arrayoperaciones = New-Object System.Collections.ArrayList
-$arrayoperaciones.add([USUARIO]::new(<span style="font-style:italic">&#34;1&#34;</span>,$TextBox.text))
-$arrayoperaciones.add([USUARIO]::new(<span style="font-style:italic">&#34;2&#34;</span>,$TextBox2.text))
-
-$arrayoperaciones | ConvertTo-Json | Out-File D:\xampp\htdocs\operacion.json -Encoding <span style="font-weight:bold">default</span>
-
-<span style="font-style:italic">##EN EL AD EJECUTAMOS EL SIGUIENTE SCRIPT (XAMP ACTIVO)</span>
-
-Invoke-RestMethod D:\xampp\htdocs\operacion.json
-
-<span style="font-weight:bold">foreach</span>($contenido <span style="font-weight:bold">in</span> (Invoke-RestMethod <span style="font-style:italic">&#34;http://10.202.0.154/operacion.json&#34;</span>))
+<span style="font-weight:bold">foreach</span>($resultado <span style="font-weight:bold">in</span> ($flyfinal.<span style="font-style:italic">&#39;Flight &#39;</span> | Group-Object | Select name))
 {
-   <span style="font-weight:bold">switch</span> ($contenido.operacion)
-   {
-       <span style="font-style:italic">&#34;2&#34;</span>{New-ADOrganizationalUnit -Name $contenido.nombre -Path <span style="font-style:italic">&#34;dc=ad,dc=luis,dc=com,dc=ar&#34;</span> -ProtectedFromAccidentalDeletion<span style="">:</span>$false}
-       <span style="font-style:italic">&#34;1&#34;</span>{New-ADUser -Name $contenido.nombre  -AccountPassword (ConvertTo-SecureString -string <span style="font-style:italic">&#34;P@ssw0rd&#34;</span> -AsPlainText -Force) -ChangePasswordAtLogon $false }
-   }
-   }
+    <span style="font-weight:bold">If</span>($resultado -match <span style="font-style:italic">&#34;BAW2799&#34;</span>)
+    {
+        New-SSHSession -ComputerName 192.168.43.135 -Credential (Get-Credential) -Force
+        Invoke-SSHCommand -Index 0 <span style="font-style:italic">&#39;python -c &#34;import RPi.GPIO as GPIO;GPIO.setmode(GPIO.BOARD);GPIO.setup(11, GPIO.OUT);GPIO.output(11, True);&#34;&#39;</span>
+        Start-Sleep -Seconds 10
+        Invoke-SSHCommand -Index 0 <span style="font-style:italic">&#39;python -c &#34;import RPi.GPIO as GPIO;GPIO.setmode(GPIO.BOARD);GPIO.setup(11, GPIO.OUT);GPIO.output(11, False);GPIO.cleanup();&#34;&#39;</span>
+    
+    }
+}
+
 </code></pre></div>
       </div>
 
@@ -294,7 +263,7 @@ Invoke-RestMethod D:\xampp\htdocs\operacion.json
           2021 -
         
         2022
-         PHINX 
+         PHINX MADRID 
       
       
       

@@ -2,100 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/posts/nessus/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/nessus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/nessus/"
-                />
-  </url><url>
-    <loc>/en/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url><url>
-    <loc>/en/posts/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-  </url><url>
-    <loc>/en/posts/antivirus/</loc>
-    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/antivirus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/antivirus/"
-                />
-  </url><url>
-    <loc>/en/posts/biblioteca-belica/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/biblioteca-belica/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/biblioteca-belica/"
-                />
-  </url><url>
-    <loc>/en/posts/user-y-ou/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/user-y-ou/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/user-y-ou/"
-                />
-  </url><url>
-    <loc>/en/posts/radar/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/radar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/radar/"
-                />
-  </url><url>
-    <loc>/en/posts/analysis-pvu/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/en/about/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -107,19 +13,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/about/"
-                />
-  </url><url>
-    <loc>/en/posts/inversiones/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/posts/inversiones/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/inversiones/"
                 />
   </url><url>
     <loc>/en/authors/</loc>
@@ -158,6 +51,20 @@
                 href="/en/contact/"
                 />
   </url><url>
+    <loc>/en/posts/nessus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/nessus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/nessus/"
+                />
+  </url><url>
+    <loc>/en/posts/analysis-pvu/</loc>
+  </url><url>
     <loc>/en/newsboard/</loc>
     <xhtml:link
                 rel="alternate"
@@ -168,6 +75,66 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/newsboard/"
+                />
+  </url><url>
+    <loc>/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url><url>
+    <loc>/en/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+  </url><url>
+    <loc>/en/posts/antivirus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/antivirus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/antivirus/"
+                />
+  </url><url>
+    <loc>/en/posts/radar/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/radar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/radar/"
+                />
+  </url><url>
+    <loc>/en/posts/user-y-ou/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/posts/user-y-ou/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/user-y-ou/"
                 />
   </url><url>
     <loc>/en/series/</loc>
